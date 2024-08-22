@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mixed selectors </title>
+    <link rel="shortcut icon" href="bulb icon.png" type="image/x-icon">
+    <style>
+    *{
+        /* margin: 0%; */
+    }
+        p{
+            color: red;
+        }
+        #your{
+            font-size: 30px;
+        }
+        .yellow , .bold {
+            background-color: rgb(236, 236, 26);
+        }
+        .bold{
+            font-weight: bolder;
+        }
+        input [type="password"] {
+        color: red;
+        } 
+        .password{
+            color: blue;
+        }
+        .my{
+            background-color: aqua;
+        }
+        .lorem{
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h3>practice of mixed selector</h3>
+    <p>coding is <span class="my">my hobby</span></p>
+    <p class="yellow ">coding is our hobby</p>
+    <p>coding is his hobby</p>
+    <p>coding is her hobby</p>
+    <p id="your">coding is your hobby</p>
+    <p>coding is their hobby</p>
+    <p class="yellow">coding is amar hobby</p>
+    <p>coding is or hobby</p>
+    <p>coding is tar hobby</p>
+    <p class="bold">coding is amader hobby</p>
+    <p>coding is tader hobby</p>
+    <p>coding is oder hobby</p>
+    <ol>
+        <li>selector</li>
+        <li class="yellow bold">element selector</li>
+        <li class="bold"> class selector</li>
+        <li>id selector</li>
+    </ol>
+    <form action="">
+        <input type="text">
+        <br><br>
+        <input type="password" class="password">
+    </form>
+    <div class="lorem">
+        <h3> water is blue</h3>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, laudantium debitis velit itaque eaque esse dolore! Aut cupiditate hic unde deserunt voluptas natus quia suscipit. Accusantium tempore quam nihil excepturi?
+    </div>
+</body>
+</html>

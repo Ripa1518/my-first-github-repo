@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> mixed selector</title>
+<style>
+    *{
+        /* margin:05 ; */
+    }
+    p{
+        color: brown;
+    }
+    #fifth , li{
+        font-size: 30px;
+    }
+    .holud,.ylw{
+        background-color: yellow;
+    }
+    .bold{
+        font-weight: bolder;
+    }
+    input[type="password"]{
+        color: blueviolet;
+        font-size: 30px;
+    }
+    span{
+        color: blue;
+    }
+    .blog{
+        background-color: cornflowerblue;
+    }
+</style>
+</head>
+<body>
+    <p>my first <span> line </span></p>
+    <p class="ylw">my 2nd line</p>
+    <p>my 3rd line</p>
+    <p class="ylw bold">my 4th line</p>
+    <p  class="holud"  id="fifth">my 5th line</p>
+    <p class="bold">my 6th line</p>
+    <p>my 7th line</p>
+    <p>my 8th line</p>
+    <ol>
+        <li>element selector</li>
+        <li class="bold holud">id selector</li>
+        <li>universal</li>
+    </ol>
+    <div class="blog">
+        <h2>my blog</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum provident animi culpa aspernatur accusamus amet corporis deserunt eaque incidunt doloribus, deleniti quas officia maxime enim a ullam aliquam autem esse!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ex dolore natus fuga quasi sed possimus voluptatem? Incidunt nesciunt iste itaque esse quam! Magnam nostrum facilis beatae excepturi in expedita?</p>
+    </div>
+    <form action="">
+        <input type="text"><br><br>
+        <input type="password">
+    </form>
+</body>
+</html>
