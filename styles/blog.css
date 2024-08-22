@@ -1,6 +1,6 @@
-div{
+body div{
     background-color: brown;
     text-align: justify;
     padding: 15px;
-    margin: 10px;
-}
+    margin: 10px; 
+ }
